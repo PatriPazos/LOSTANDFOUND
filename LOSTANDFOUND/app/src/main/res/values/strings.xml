@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">LOSTANDFOUND</string>
+    <string name="action_settings">Configuración</string>
+    <string name="welcome">Bienvenida</string>
+    <string name="hello">Los ojos de un animal tienen el poder de hablar un gran idioma. Ayuda a los animales a encontrar su hogar </string>
+    <string name="logot">logo_ppal</string>
+    <string name="fotomain">Ayuda a encontrarlas</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_user">Usuario</string>
+    <string name="title_activity_registro">Registro</string>
+
+    <string name="enter">Entrar</string>
+
+
+</resources>

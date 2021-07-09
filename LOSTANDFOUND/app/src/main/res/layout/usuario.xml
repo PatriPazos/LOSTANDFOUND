@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#ffffff">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:text="Perfil de Usuario"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/imageSwitcher"
+        android:layout_centerHorizontal="true" />
+
+    <ImageSwitcher
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageSwitcher"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageView
+        android:layout_width="139dp"
+        android:layout_height="139dp"
+        android:id="@+id/iduser"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.22"
+        android:src="@mipmap/iduser_male"
+        android:layout_below="@+id/editText"
+        android:layout_alignRight="@+id/editText"
+        android:layout_alignEnd="@+id/editText"
+        android:background="#ffffff"
+        android:clickable="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ENCONTRADO"
+        android:id="@+id/bencontrado"
+        android:layout_marginTop="172dp"
+        android:layout_below="@+id/iduser"
+        android:layout_toRightOf="@+id/iduser"
+        android:layout_toEndOf="@+id/iduser" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PERDIDO"
+        android:id="@+id/bperdido"
+        android:layout_alignTop="@+id/bencontrado"
+        android:layout_toLeftOf="@+id/iduser"
+        android:layout_toStartOf="@+id/iduser" />
+
+</RelativeLayout>
